@@ -263,7 +263,7 @@ proto.initializeGLPlot = function() {
                     });
                 }
 
-                setTimeout(()=>{ relayoutCallback(scene)},1000);
+                setTimeout(function() { relayoutCallback(scene); }, 1000);
             }
         }, passiveSupported ? {passive: false} : false);
 

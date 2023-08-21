@@ -48894,7 +48894,7 @@ proto.initializeGLPlot = function () {
             z: s * o.z
           });
         }
-        setTimeout(() => {
+        setTimeout(function () {
           relayoutCallback(scene);
         }, 1000);
       }
