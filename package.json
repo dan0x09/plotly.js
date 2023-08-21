@@ -62,8 +62,7 @@
     "version": "npm run build && npm run no-bad-char && git add -A lib dist build src/version.js",
     "postversion": "node -e \"console.log('Version bumped and committed. If ok, run: git push && git push --tags')\"",
     "postpublish": "node tasks/sync_packages.js",
-    "postshrinkwrap": "chttps .",
-	"prepare": "npm run build"
+    "postshrinkwrap": "chttps ."
   },
   "browserify": {
     "transform": [
