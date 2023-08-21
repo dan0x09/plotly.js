@@ -43,7 +43,7 @@ The main plotly.js bundles weight in at:
 
 | plotly.js | plotly.min.js | plotly.min.js + gzip | plotly-with-meta.js |
 |-----------|---------------|----------------------|---------------------|
-| 8.1 MB | 3.4 MB | 1 MB | 8.4 MB |
+| 8.2 MB | 3.4 MB | 1 MB | 8.4 MB |
 
 #### CDN links
 > https://cdn.plot.ly/plotly-2.25.2.js
@@ -206,7 +206,7 @@ The `mapbox` partial bundle contains trace modules `choroplethmapbox`, `densitym
 
 | Raw size | Minified size | Minified + gzip size |
 |------|-----------------|------------------------|
-| 4.3 MB | 1.7 MB | 525.6 kB |
+| 4.3 MB | 1.7 MB | 525.7 kB |
 
 #### CDN links
 > https://cdn.plot.ly/plotly-mapbox-2.25.2.js
@@ -229,7 +229,7 @@ The `finance` partial bundle contains trace modules `bar`, `candlestick`, `funne
 
 | Raw size | Minified size | Minified + gzip size |
 |------|-----------------|------------------------|
-| 2.8 MB | 1 MB | 353 kB |
+| 2.8 MB | 1 MB | 353.1 kB |
 
 #### CDN links
 > https://cdn.plot.ly/plotly-finance-2.25.2.js
