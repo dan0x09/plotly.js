@@ -247,6 +247,10 @@ proto.initializeGLPlot = function() {
             tabletmode = true;
         });
 
+        scene.glplot.canvas.addEventListener('touchend', function() {
+            relayoutCallback(scene);
+        });
+
         scene.glplot.canvas.addEventListener('wheel', function(e) {
             if(gd._context._scrollZoom.gl3d) {
                 if(scene.camera._ortho) {
@@ -259,7 +263,7 @@ proto.initializeGLPlot = function() {
                     });
                 }
 
-                relayoutCallback(scene);
+                setTimeout(()=>{ relayoutCallback(scene)},1000);
             }
         }, passiveSupported ? {passive: false} : false);
 
